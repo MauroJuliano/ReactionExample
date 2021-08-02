@@ -13,6 +13,8 @@
 		007DCE8726B8B11A00CCAC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007DCE8526B8B11A00CCAC68 /* Main.storyboard */; };
 		007DCE8926B8B11D00CCAC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007DCE8826B8B11D00CCAC68 /* Assets.xcassets */; };
 		007DCE8C26B8B11D00CCAC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007DCE8A26B8B11D00CCAC68 /* LaunchScreen.storyboard */; };
+		007DCE9626B8B13B00CCAC68 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DCE9426B8B13B00CCAC68 /* ReactionView.swift */; };
+		007DCE9726B8B13B00CCAC68 /* Reaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DCE9526B8B13B00CCAC68 /* Reaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		007DCE8826B8B11D00CCAC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007DCE8B26B8B11D00CCAC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007DCE8D26B8B11D00CCAC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007DCE9426B8B13B00CCAC68 /* ReactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		007DCE9526B8B13B00CCAC68 /* Reaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				007DCE7F26B8B11A00CCAC68 /* AppDelegate.swift */,
 				007DCE8126B8B11A00CCAC68 /* SceneDelegate.swift */,
 				007DCE8326B8B11A00CCAC68 /* ViewController.swift */,
+				007DCE9526B8B13B00CCAC68 /* Reaction.swift */,
+				007DCE9426B8B13B00CCAC68 /* ReactionView.swift */,
 				007DCE8526B8B11A00CCAC68 /* Main.storyboard */,
 				007DCE8826B8B11D00CCAC68 /* Assets.xcassets */,
 				007DCE8A26B8B11D00CCAC68 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				007DCE8426B8B11A00CCAC68 /* ViewController.swift in Sources */,
+				007DCE9726B8B13B00CCAC68 /* Reaction.swift in Sources */,
+				007DCE9626B8B13B00CCAC68 /* ReactionView.swift in Sources */,
 				007DCE8026B8B11A00CCAC68 /* AppDelegate.swift in Sources */,
 				007DCE8226B8B11A00CCAC68 /* SceneDelegate.swift in Sources */,
 			);
